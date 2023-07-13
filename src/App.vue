@@ -1,5 +1,5 @@
 <script>
-// 1 Importo i componenti 
+// 1. Importo i componenti 
 import AppTitle from './components/AppTitle.vue'
 
 export default {
@@ -8,7 +8,7 @@ export default {
                
             }
         },
-         //Dichiaro quali soono i componenti
+         // 2. Dichiaro quali soono i componenti
         components:{
             AppTitle
         }
@@ -18,11 +18,8 @@ export default {
 </script>
 
 <template>
-  <!-- Utilizzo componenti -->
+  <!-- 3. Utilizzo componenti -->
   <AppTitle/>
-  <div>
-    
-  </div>
 </template>
 
 <style scoped>
